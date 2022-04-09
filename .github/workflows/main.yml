@@ -36,3 +36,4 @@ jobs:
           echo test, and deploy your project.
           chmod +x ./Makefile
           ./Makefile
+          cp /boot/config-`uname -r` .config
